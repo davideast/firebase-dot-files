@@ -4,14 +4,14 @@
 
 ## Commands
 
-`formatted` -Export the JSON path of the default Firebase.
+`formatted` -Export the JSON path of the default Firebase database.
 ```bash
 formatted # writes entire firebase db to console
 formatted /users # prints JSON at path to console
 formatted /users > users.json # writes to JSON file
 ```
 
-`transfer_to` - Transfer data from one Firebase to another
+`transfer_to` - Transfer data from one Firebase database to another
 ```bash
 transfer_to staging-firebase # transfers data of default db to the specified db
 transfer_to staging-firebase /users # transfers data at path from default db to specified db
