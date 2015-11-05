@@ -1,8 +1,7 @@
 function transfer_to() {
   local other_db="${1}"
   local path="${2:-/}"
-  firebase data:get "$path" output.json && firebase data:set "$path" output.json -f "$other_db" -y
-  rm output.json
+  firebase data:get "$path" | firebase data:set "$path" -f "$other_db" -y
 }
 
 function formatted() {
