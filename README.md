@@ -1,4 +1,4 @@
-![logo](/logo.png)
+![logo](/dot-files-spin.gif)
 
 *A set of helpful bash functions stored in a `~/.bash_profile`*
 
