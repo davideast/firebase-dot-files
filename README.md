@@ -2,10 +2,6 @@
 
 *A set of helpful bash functions stored in a `~/.bash_profile`*
 
-```bash
-formatted my-firebase-db /users > users.json
-```
-
 ## Commands
 
 `formatted` -Export the JSON path of the default Firebase.
