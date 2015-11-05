@@ -8,4 +8,3 @@ function formatted() {
   local path="${1:-/}"
   firebase data:get "$path" | python -m json.tool
 }
-
